@@ -1,0 +1,1 @@
+print("Typing Test")
