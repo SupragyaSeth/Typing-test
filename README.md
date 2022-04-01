@@ -2,4 +2,4 @@
 
 Created by Supragya Seth
 
-This is a typing test program
+This is a typing test program.
