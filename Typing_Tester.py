@@ -1,5 +1,7 @@
 import random
 import time
+from xxlimited import Str
+
 def FindAccuracy(input_passage,output_passage) :
     output_wordcount = len(output_passage)
     print(output_wordcount)
@@ -49,4 +51,4 @@ t2 = time.time()
 timetaken = t2 - t1
 timetaken = round(timetaken)
 
-print("\n" + "WPM:", WPM(textinput, timetaken), "Accuracy:", Accuracy(textinput, value) , "Timetaken:", timetaken)
+print("\n" + "WPM:", WPM(textinput, timetaken), "Accuracy:", str(Accuracy(textinput, value)) + "%" , "Timetaken:", timetaken)
